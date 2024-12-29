@@ -14,3 +14,4 @@ A site designed to show udemig trainings and details
 - boostrap
 
 <h2> 🎬 PREVIEW </h2>
+![](udebs-gif-için.gif)
