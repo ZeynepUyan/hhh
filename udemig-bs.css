@@ -1,0 +1,36 @@
+body::before {
+  display: block;
+  content: "";
+  height: 70px;
+}
+
+
+
+section img {
+  border-radius: 8px; /* Resmin köşelerini yumuşatma */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hafif gölge efekti */
+}
+
+.d-sm-flex {
+  flex-wrap: wrap;
+}
+
+@media (max-width: 992px) {
+  .d-sm-flex {
+    flex-direction: column;
+  }
+}
+
+/* Resim için özel boyutlandırma */
+img {
+  max-width: 100%; /* Genişliği sütuna tamamen oturt */
+  height: auto; /* Oranı koru */
+  margin: 0 auto; /* Ortala */
+  width: 65%; /* Resmi biraz büyüt */
+}
+
+#map-container {
+  margin-bottom: 0; /* Alt boşluğu kaldırır */
+  padding-bottom: 0; /* Eğer padding kaynaklıysa boşluğu kaldırır */
+}
+
